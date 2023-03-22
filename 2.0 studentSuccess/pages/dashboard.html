@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+    </style>
+    <link rel="stylesheet" href="/styles/dashboard.css">
+    <script src="/scripts/dashboard.js" defer></script> 
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="header-content">
+                <img src="/assets/logo.svg" alt="">
+                <p class="studentSuccess-text">StudentSuccess</p>
+                <!-- <div class="header-links">
+                    <a href="#">Help</a>
+                    <a href="#">About us</a>
+                    <a href="#">Contacts</a>
+                </div> -->
+                <div class="homepage-btn-container">
+                    <a class="homepage-btn" href="../index.html">BACK</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="wrapper">
+        <div class="grid-container main">
+            <div class="hero grid-item-1">
+                <h1>Your Virtual Academic Management System</h1>
+                <p>Start now by exploring our tools.</p>
+            </div>
+
+            <nav class="grid-item-2">
+                <div class="nav-links">
+                    <a href="#">Pomodoro</a>
+                    <a href="#">Notetaking</a>
+                    <a href="#">Schedule</a>
+                    <a href="#">History</a>
+                </div>
+            </nav>
+
+            <div class="grid-item-3 notice">
+                <div class="notice-content">
+                    <div class="notice-title">
+                        <p>Notice</p>
+                    </div>
+                    <blockquote cite="https://www.bartleby.com/essay/Education-Is-The-Most-Powerful-Weapon-FKQETF3VUXZW#:~:text=Nelson%20Mandela%20one%20said%2C%20%E2%80%9CEducation,weapon%20as%20explained%20by%20Mandela.">
+                        <p>Education is the most powerful weapon which you can use to change the world.</p>
+                        <cite>Nelson Mandela</cite>
+                    </blockquote>
+                </div>
+            </div>
+
+            <div class="grid-item-4 notifications">
+                <div class="notifications-wrapper">
+                    <p>Notifications:</p>
+                    <div class="notifications-content">
+                        <div class="notifications-placeholder">
+                            <p>Lorem Ipsum</p>
+                            <p>dolor sit amet. Eum consequatur ipsam.</p>
+                        </div>
+                        <div class="notifications-placeholder">
+                            <p>Lorem Ipsum</p>
+                            <p>dolor sit amet. Eum consequatur ipsam.</p>
+                        </div>
+                        <div class="notifications-placeholder">
+                            <p>Lorem Ipsum</p>
+                            <p>dolor sit amet. Eum consequatur ipsam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item-5 seiko">
+                <div class="seiko-textbox">
+                    <p>Hello, I’m Seiko! I Am Your Personal Assistant. I Will Help You To Succeed.</p>
+                </div>
+                <img src="/assets/seiko.png" alt="">
+            </div>
+            
+            <div class="grid-item-6 agendas">
+                <p class="agendas-title">Agendas</p>
+                <form>
+                    <div id="addAgendaButton">
+                        <div></div>
+                        <p>Click to add an agenda</p>
+                    </div>
+                    <ul id="agendasList">
+                        <li>
+                            <input type="checkbox">
+                            <p>Be Productive</p>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <p>Study SIA</p>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <p>Email Sir John</p>
+                        </li>
+                        <li>
+                            <input type="checkbox">
+                            <p>Attend Zoom Call</p>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
